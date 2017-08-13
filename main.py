@@ -1,6 +1,5 @@
 import random
 import urllib.request
-import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -21,7 +20,7 @@ main_url_plain_text = main_url_source_code.text
 
 # print(main_url_plain_text)
 
-soup = BeautifulSoup(main_url_plain_text)
+soup = BeautifulSoup(main_url_plain_text,"lxml")
 
 image_list=[]
 
