@@ -35,4 +35,4 @@ for link in soup.findAll('img',{'class':'thumbimage'}):
 
 
 for i in range(len(image_list)):
-    urllib.request.urlretrieve(image_list[i], "C:/Users/Dinesh Kumar Sah/Desktop/Python/Automatic-Image-downloader/downloaded images/"+str(random.randint(1,101))+".jpg")
+    urllib.request.urlretrieve(image_list[i], "C:/Users/Dinesh Kumar Sah/Desktop/Python/Automatic-Image-downloader/downloaded images/"+str(random.randint(1,1001))+".jpg")
